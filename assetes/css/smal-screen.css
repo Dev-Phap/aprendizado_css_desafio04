@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background: transparent;
+    width: auto;
+
+}
+
+
+@media screen and (max-width:430px) {
+ 
+
+    /* css gerais */    
+        
+    a { 
+        color: black;
+        text-decoration: none;
+    }
+    
+    body {
+        margin: auto;
+        width: auto;  
+        padding:0;
+        display: flex;
+        flex-direction: column;
+          
+    }
+    
+    h1 {
+        font-family: "Luckiest Guy";
+        font-weight: 400;
+        font-size:  2rem;
+        text-align: center;
+    }
+    
+    p {
+        font-family: "Open Sans";
+        font-weight: 400;
+        text-align: justify;
+        font-size: 1rem;
+        
+
+    }
+    
+/* ------ HEADER - Container------- */
+    
+    .header_container {
+    
+        
+        padding: 15px;
+        margin: auto;    
+        display: flex;
+        flex-direction: column;
+    
+        color: white;
+        background-image: url(../images/desktop/Header\ Background.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        gap: 15px;
+    
+    }
+
+
+    /* ------ HEADER - Content ------- */
+
+    .header_content {
+
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+
+    }
+    
+    .header_content span {
+
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+
+    }
+
+    
+    .header_bt_download {
+    
+        display: flex;
+        justify-content: center;
+
+        width: 20rem;
+        padding: 10px;
+        color: black;
+        background-color: white;
+        border:none;
+        border-radius: 28px;
+    
+        font-family: "Open Sans";
+        font-weight: 400;
+        font-size: 1rem;
+            
+    }
+    
+    .header_bt_open {
+    
+        display: flex;
+        justify-content: center;
+        
+        width: 20rem;
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        background-color: #23272A;
+        border:none;
+        border-radius: 28px;
+    
+        font-family: "Open Sans";
+        font-weight: 400;
+        font-size: 1rem;
+            
+    }
+    
+    /* -------MAIN - Container------- */
+    
+    .main_container {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content:space-between;
+    
+    }
+    
+    /* -------MAIN - Section  content------- */
+    
+    .section_content {
+    
+        display: flex;
+        flex-direction: column;
+        padding: 45px 10px;
+        gap: 25px;
+        margin: 0px auto;
+    }
+
+    .section_content span {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        max-width: 600px;
+
+
+    }
+    
+    .sct_2 {
+    
+        background: #F6F6F6;
+    
+    }
+    
+    .section_img {
+    
+        object-fit: cover;
+        max-width: 100%;
+    }
+    
+    /* ------- Footer - content------- */
+    .footer_content {
+    
+        display: flex;
+        flex-direction: column;
+    
+        padding: 30px;
+    
+        align-items: center;
+        justify-content: center;
+    
+        background-color: #23272A;
+        
+    }
+
+
+}
